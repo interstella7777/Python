@@ -73,7 +73,7 @@ def borrar():
 
 #------- Funcion para mostrar mensaje - Show a message --------
 def licencia():
-    messagebox.showinfo("Licencia", "Producto con fines educativos")
+    messagebox.showinfo("Licencia", "Producto con fines educativos. Basic CRUD app created by Samir Vivas | 2025 | bryansamir@gmail.com")
 
 def acerca_de():
     messagebox.showinfo("Acerca de", "Ejemplo de aplicación con Tkinter y SQLite3")
@@ -195,3 +195,5 @@ botonBorrar.grid(row=1, column=3, sticky="e", padx=10, pady=10)
 
 # -------- Loop principal - Main Loop ----------------------
 root.mainloop()
+
+#Basic CRUD app created by Samir Vivas | 2025 | bryansamir@gmail.com
